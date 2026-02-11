@@ -21,10 +21,7 @@ public class Class_extends02 {
 
         //부모에게 물려받은 변수와 메서드 사용
         myDog.name = "밍키";
-        //System.out.println(myDog.name);
-
         myDog.eat();
-
 
         // 자식 클래스 본인의 메서드 사용
         myDog.bark();
