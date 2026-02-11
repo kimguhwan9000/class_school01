@@ -27,5 +27,9 @@ public class helloworld {
 
         // 자식 클래스 본인의 메서드 사용
         myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
     }    
 }
