@@ -31,5 +31,15 @@ public class helloworld {
         myDog.bark();
         myDog.bark();
         myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
+        myDog.bark();
     }    
 }
