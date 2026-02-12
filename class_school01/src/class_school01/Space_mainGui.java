@@ -25,10 +25,11 @@ public class Space_mainGui extends JFrame {
                 g.setColor(Color.BLACK);
                 g.fillRect(0, 0, getWidth(), getHeight());
 
-                // 행성 그리기
-                int x = planet.getX();
-                int y = planet.getY();
-                String name = planet.getName();
+                // ⭐ 중요: 바깥쪽 클래스의 필드인 'planet'을 명확히 지칭합니다.
+                // 이렇게 하면 'The value of the field... is not used' 경고가 사라집니다.
+                int x = Space_mainGui.this.planet.getX();
+                int y = Space_mainGui.this.planet.getY();
+                String name = Space_mainGui.this.planet.getName();
 
                 g.setColor(Color.YELLOW);
                 g.fillOval(x, y, 30, 30);
